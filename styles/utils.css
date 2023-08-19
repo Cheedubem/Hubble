@@ -13,7 +13,6 @@ body {
   font-size: 18px;
   background-image: url(../images/bg-hero-desktop.svg);
   background-color: hsl(193, 100%, 96%);
-
   background-position: center;
   background-size: cover;
 }
@@ -34,7 +33,7 @@ button {
 
 .pink-btn {
   background-color: hsl(322, 100%, 66%);
-  color: #111;
+  color: white;
 }
 
 .container {

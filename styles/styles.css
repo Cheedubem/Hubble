@@ -23,3 +23,20 @@ nav {
 button {
   margin-top: 1rem;
 }
+
+main {
+  padding: 3rem 3rem 10rem 3rem;
+  background-color: white;
+}
+
+.info {
+  margin: 2rem 0;
+  box-shadow: 0 0 10px rgba(17, 17, 17, 0.094);
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.info-image {
+  width: 30%;
+  height: auto;
+}
