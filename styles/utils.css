@@ -10,25 +10,45 @@ html {
 
 body {
   font-family: "poppins";
+  font-size: 18px;
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+
+  background-position: center;
+  background-size: cover;
 }
 
 button {
-  display: inline-block;
-  padding: 0;
-  border: none;
-  background: none;
   cursor: pointer;
   color: inherit;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.8rem 3rem;
+  box-shadow: 0 0 10px rgba(17, 17, 17, 0.094);
 }
 
 .white-btn {
-  padding: 1rem 2rem;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: #111;
 }
 
 .pink-btn {
-  padding: 1rem 2rem;
-  background-color: ;
+  background-color: hsl(322, 100%, 66%);
   color: #111;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: poppins;
 }

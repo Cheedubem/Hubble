@@ -1,0 +1,25 @@
+nav {
+  padding: 2rem 3rem;
+  /* background-color: hsl(193, 100%, 96%); */
+}
+
+.logo {
+  width: 8rem;
+  height: auto;
+}
+
+.hero-section {
+  margin: 1rem 3rem;
+  gap: 1rem;
+  /* margin: auto 0; */
+}
+
+.hero-image img {
+  width: 80%;
+  height: auto;
+}
+
+.hero-text p,
+button {
+  margin-top: 1rem;
+}
