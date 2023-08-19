@@ -40,3 +40,16 @@ main {
   width: 30%;
   height: auto;
 }
+
+.modal {
+  text-align: center;
+  width: 50%;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(17, 17, 17, 0.094);
+
+  padding: 3rem 6rem;
+  background-color: white;
+  position: relative;
+  top: -90;
+  margin: 0 auto;
+}
