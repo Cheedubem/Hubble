@@ -4,8 +4,31 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "poppins";
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
 .white-btn {
   padding: 1rem 2rem;
   background-color: white;
-  color: ;
+  color: #111;
+}
+
+.pink-btn {
+  padding: 1rem 2rem;
+  background-color: ;
+  color: #111;
 }
