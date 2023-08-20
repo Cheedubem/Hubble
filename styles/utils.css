@@ -13,8 +13,8 @@ body {
   font-size: 18px;
   background-image: url(../images/bg-hero-desktop.svg);
   background-color: hsl(193, 100%, 96%);
-  background-position: center;
-  background-size: cover;
+  background-position: 0%;
+  background-size: ;
 }
 
 button {
@@ -32,8 +32,12 @@ button {
 }
 
 .pink-btn {
-  background-color: hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 50%);
   color: white;
+}
+
+.pink-btn:hover {
+  background-color: hsl(322, 100%, 66%);
 }
 
 .container {
@@ -50,4 +54,16 @@ h5,
 h6 {
   font-weight: 600;
   font-family: poppins;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  font-size: 14px;
 }
